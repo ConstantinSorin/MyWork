@@ -1,0 +1,65 @@
+.container-login {
+    width: 300px;
+    margin: 0 auto; 
+    padding: 20px; 
+  color: red;
+}
+  
+  .container-login h2 {
+    text-align: center; 
+  }
+  
+  .container-login input[type="text"],
+  .container-login input[type="password"] {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    color: black;
+  }
+  
+  .container-login input[type="submit"] {
+    width: 100%; 
+    padding: 10px; 
+    background-color: #333; 
+    color: #fff; 
+    border: none; 
+  }
+  .continua-vizitator {
+    text-align: center; 
+    margin-top: 20px; 
+    color:red;
+  }
+  
+  .continua-vizitator a {
+    text-decoration: none; 
+    font-weight: bold; 
+    padding: 10px; 
+    background-color: #333; 
+    color: #fff; 
+    border: none;
+  }
+  
+  .continua-vizitator a:hover {
+    text-decoration: underline; 
+  }
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
